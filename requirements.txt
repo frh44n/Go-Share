@@ -3,3 +3,4 @@ python-telegram-bot==13.7
 werkzeug==2.0.2
 pytube
 python-dotenv
+psycopg2-binary
