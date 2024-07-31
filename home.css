@@ -1,0 +1,433 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    
+}
+
+.body {
+    display: inline-block;
+    background-color: rgb(246, 244, 244);
+    width: 400px;
+    height: 2300px;
+
+
+}
+
+.navbar {
+    height: 44px;
+    width: 400px;
+    background-color: #FFFFFFCB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 156;
+
+
+}
+
+.logo {
+    display: flex;
+}
+
+.lang-logo {
+    background-image: url(language.png);
+    height: 20px;
+    width: 20px;
+    background-size: cover;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.rupee {
+    background-color: rgb(237, 131, 10);
+    border-radius: 45px;
+    height: 20px;
+    width: 46px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.rupee img {
+    height: 20px;
+    width: 20px;
+}
+
+.rupee span{
+    font-size: xx-small;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    position: relative;
+    top: -5.9px;
+}
+
+p {
+    font-size: 9px;
+    margin-left: 4px;
+    color: #ff5801;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+span {
+    margin-top: 0px;
+    color: aliceblue;
+}
+
+.arrow {
+    background-image: url(down\ arrow.png);
+    height: 5px;
+    width: 8px;
+    background-size: cover;
+}
+
+select {
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    border-color: transparent;
+    outline: none;
+}
+option{
+    background-color: transparent;
+}
+
+/* css for slide navigation */
+
+.slider {
+    width: 380px;
+    height: 200px;
+    border-radius: 21px;
+    overflow: hidden;
+    margin-left: 10px;
+    margin-top: 54px;
+
+}
+
+.slides {
+    width: 380px;
+    height: 200px;
+    display: flex;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide {
+    width: 100%;
+    transition: 1s;
+}
+
+.slide img {
+    width: 380px;
+    height: 200px;
+}
+
+
+
+#radio1:checked~.first {
+    margin-left: 0;
+}
+
+#radio2:checked~.first {
+    margin-left: -100%;
+}
+
+#radio3:checked~.first {
+    margin-left: -210%;
+}
+
+#radio4:checked~.first {
+    margin-left: -315%;
+}
+
+.info-task {
+    width: 380px;
+    height: 45px;
+    background-color: #ffffff;
+    margin: 10px 10px 10px 10px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    transition-duration: 2s;
+    cursor: pointer;
+}
+
+
+.whatsapp {
+    margin-left: 12px;
+}
+
+.info-task p {
+    margin-left: 5px;
+    color: black;
+}
+
+.info-task span {
+    margin-left: 5px;
+    margin-top: 0;
+    color: black;
+    font-size: xx-small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
+
+.info-task .get {
+    width: 42px;
+    height: 25px;
+    border: 1px solid #ff5801;
+    border-radius: 26px;
+    padding-left: 0px;
+    position: absolute;
+    margin-left: 325px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.info-task .get button{
+    width: 42px;
+    height: 25px;
+    border-radius: 26px;
+    border: none;
+    background-color: #ffffff;
+}
+
+.info-task .get button:active{
+    color: #ffffff;
+    background-color: #ff5801;
+}
+
+.info-task .get:active{
+    border: 1px solid #ff5801;
+}
+
+.daily-login{
+    width: 380px;
+    height: 159px;
+    background-color: #ffffff;
+    margin-left: 10px;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.daily-login img{
+    margin-top: 10px;
+    margin-left: 12px;
+}
+.daily-login .daily-msg{
+    width: 315px;
+    height: 14px;
+    margin-top: 13px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.daily-msg .scan-task{
+    font-size: 10px;
+    margin-left: 4px;
+    color: #000000;
+    font-family: sans-serif;
+    font-weight: bold;   
+}
+
+.scan-task{
+    height: 20px;
+}
+.daily-msg .prize{
+    font-size: 10px;
+    margin-left: 4px;
+    color: #000000;
+    font-family: sans-serif;
+    font-weight: bold;   
+}
+
+.scan-task .reffer{
+    font-size: 8px;
+    margin-left: 1px;
+    margin-top: 2px;
+    color: #000000;
+    font-family: sans-serif;
+    font-weight:300;
+}
+
+.daily-login .daily-reward{
+    background-color: #f1f1ef;
+    width: 350px;
+    height: 10px;
+    margin-left: 15px;
+    margin-top: 20px;
+    display: flex;  
+    justify-content: space-between;
+}
+
+.daily-login .daily-reward img{
+    position: relative;
+    bottom: 25px;
+    left: -5px;
+}
+
+.daily-reward .rs .y{
+    z-index:4;
+    position: relative;
+    color: rgb(233, 226, 226);
+    font-family: 'Courier New', Courier, monospace;
+    left: 23.5px;
+    font-size: small;
+    font-weight: 600;
+    top: -70px;
+}
+
+.daily-reward .rs .x{
+    z-index:4;
+    position: relative;
+    color: rgb(233, 226, 226);
+    font-family: 'Courier New', Courier, monospace;
+    left: 19px;
+    font-weight: 600;
+    font-size: small;
+    top: -70px;
+}
+.daily-login .comment{
+    background-color: rgb(255, 203, 203);
+    width: 350px;
+    height: 25px;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.comment img{
+   left: -5px;
+    position: relative;
+    bottom: 4.5px;
+}
+.comment button{
+    background-color: transparent;
+    border: 1px solid rgb(233, 113, 113);
+    border-radius: 10px;
+    font-size: 10px;
+    position: relative;
+    top: -6px;
+    left: 120px;
+    width: 40px;
+    height: 15px;
+    font-weight: 400;
+    color: #F97772;
+}
+
+.comment span{
+    font-size: 10px;
+    position: relative;
+    bottom: 6.5px;
+    color: #F97772;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.invite-task{
+    width: 380px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.invite-task img{
+    margin-top: 10px;
+    margin-left: 12px;
+}
+.invite-task .daily-msg{
+    width: 315px;
+    height: 14px;
+    margin-top: 8px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.invite-task .comment{
+    background-color: rgb(255, 203, 203);
+    width: 350px;
+    height: 25px;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-top: 20px;
+    display: flex;
+    
+}
+
+.invite-task .comments span{
+    font-size: 10px;
+    font-weight: 600;
+    position: relative;
+    bottom: 6.5px;
+    color: #ff7300;
+    font-family:sans-serif;
+   margin-left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    width: 400px;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: 10px;
+    position: fixed;
+    bottom: 0;
+}
+
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 360px;
+    margin-left: 20px;
+    margin-top: -30px;
+}
+
+.info .a{
+    background-color: #ffffff;
+    border-radius: 100px;
+}
+
+.info .a img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.notice{
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    background-color: #fc0000;
+    border-radius: 20px;
+    color: #ffffff;
+    position: sticky;
+    top: 55px;
+    width: 380px;
+    margin-left: 10px;
+}
