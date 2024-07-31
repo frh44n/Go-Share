@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+ /* code by quantum mohit  */
+body {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    background-color: rgb(113, 227, 255);
+}
+ /* code by quantum mohit  */
+.container {
+    height: 280px;
+    border: none;
+    border-radius: 15px;
+    width: 250px;
+    background-color: rgb(255, 140, 0);
+    box-shadow: 0 5px 10px rgba(255, 128, 0, 0.977);
+}
+
+.container .detail {
+    margin-top: 8px;
+}
+ /* code by quantum mohit  */
+.container h1 {
+    text-align: center;
+    margin-top: 6px;
+     /* code by quantum mohit  */
+    font-size: xx-large;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0 0 10px white;
+}
+ /* code by quantum mohit  */
+.detail p {
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    padding-left: 37px;
+     /* code by quantum mohit  */
+    margin-top: 2px;
+    text-shadow: 0 0 10px white;
+}
+ /* code by quantum mohit  */
+.container input {
+    width: 180px;
+    height: 25px;
+     /* code by quantum mohit  */
+    padding-left: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 0, 0);
+    
+}
+ /* code by quantum mohit  */
+.detail input {
+    margin-left: 12.5%;
+    margin-top: 3px;
+    border: none;
+    text-shadow:0 0px 10px rgba(240, 97, 97);
+     /* code by quantum mohit  */
+    outline: 1px solid rgba(0, 0, 0, .4);
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(10, 70, 59, 0.5);
+    
+ /* code by quantum mohit  */
+}
+input::placeholder{
+    text-shadow: none;
+}
+ /* code by quantum mohit  */
+button {
+    width: 90%;
+    height: 25px;
+    margin-top: 25px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .6);
+    margin-left: 12px;
+    border-radius: 45px;
+     /* code by quantum mohit  */
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    outline: none;
+    border: none;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+}
+ /* code by quantum mohit  */
+.sign-in {
+    text-align: center;
+    padding: 7px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    color: rgb(255, 255, 255);
+}
+ /* code by quantum mohit  */
+.sign-in a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sign-in a:hover {
+    /* color: rgb(0, 0, 173); */
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+}
+ /* code by quantum mohit  */
+input[type="number"]::-webkit-outer-spin-button,
+ /* code by quantum mohit  */
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+ /* code by quantum mohit  */
